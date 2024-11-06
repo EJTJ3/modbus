@@ -70,6 +70,7 @@ const (
 	ErrBadTransactionId          Error = "bad transaction id"
 	ErrUnknownProtocolId         Error = "unknown protocol identifier"
 	ErrUnexpectedParameters      Error = "unexpected parameters"
+	ErrUndefinedTransport        Error = "Transport is undefined"
 )
 
 // mapExceptionCodeToError turns a modbus exception code into a higher level Error object.
